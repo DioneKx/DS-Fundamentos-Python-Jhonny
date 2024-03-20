@@ -2,7 +2,10 @@ course = "Python" # String (%s)
 year = 2024 # Inteiro (%d)
 valor = 1500.00 # Float (%f)
 
-msg = "O curso de " + course + " possui o valor de R$" + str(valor) + ", no ano de " + str(year)
+msg = f"O curso de {course} possui o valor de R$ {valor}, no ano de {year}"
+#É possível criar um texto dessa forma ao utilizar "f" antes da string
+
+# msg = "O curso de " + course + " possui o valor de R$" + str(valor) + ", no ano de " + str(year)
 #Para guardar diferentes tipos de variaveis em uma outra var, trasnforme tudo em um unico tipo (String acima)
 
 ''' Concatenação com virgula abaixo '''
