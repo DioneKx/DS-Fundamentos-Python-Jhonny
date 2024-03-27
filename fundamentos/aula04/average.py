@@ -1,4 +1,4 @@
-qn8td = int(input("Digite a quantia de numeros p/determinar m: "))
+qntd = int(input("Digite a quantia de numeros p/determinar m: "))
 result = 0
 nwhile = 1
 

@@ -1,4 +1,4 @@
-# names = ["Larissa", "Lulinha", "Amenic", "Gustavo", "Henri", "Enzo"]
+# names = ["Larissa", "Lulinha", "Amenic", "Gustavo", "Henri", "Enzo"] #Chama-se array/lista/vetores
 
 # for i in range(10): #Syntax Default do for em python (Define o i como 0 e adiciona o incremento de forma automática)
 #     print(i)
