@@ -5,7 +5,7 @@ USE bd_schedule;
 # DROP DATABASE bd_schedule;
 
 CREATE TABLE tbl_schedules (
-	_id INT UNSIGNED NOT NULL,
+	_id INT UNSIGNED AUTO_INCREMENT NOT NULL,
 	_type VARCHAR(13),
     _name VARCHAR(150),
     _email VARCHAR(150),
@@ -13,4 +13,4 @@ CREATE TABLE tbl_schedules (
     CONSTRAINT tbl_schedules_id_pk PRIMARY KEY (_id)
 );
 
-SELECT * FROM tbl_schedules;
+SELECT a._id, a._name, a._email, a._tel, a._type FROM tbl_schedules AS a;

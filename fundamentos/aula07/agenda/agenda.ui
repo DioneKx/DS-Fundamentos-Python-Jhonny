@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>624</width>
-    <height>598</height>
+    <width>483</width>
+    <height>482</height>
    </rect>
   </property>
   <property name="cursor">
@@ -37,8 +37,8 @@
      <rect>
       <x>20</x>
       <y>0</y>
-      <width>581</width>
-      <height>551</height>
+      <width>441</width>
+      <height>441</height>
      </rect>
     </property>
     <property name="focusPolicy">
@@ -57,8 +57,8 @@
      <widget class="QPushButton" name="btnRegister">
       <property name="geometry">
        <rect>
-        <x>220</x>
-        <y>400</y>
+        <x>150</x>
+        <y>350</y>
         <width>141</width>
         <height>51</height>
        </rect>
@@ -79,8 +79,8 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>100</y>
+        <x>120</x>
+        <y>50</y>
         <width>171</width>
         <height>71</height>
        </rect>
@@ -113,10 +113,10 @@
      <widget class="QWidget" name="formLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>90</x>
-        <y>190</y>
+        <x>10</x>
+        <y>170</y>
         <width>421</width>
-        <height>142</height>
+        <height>111</height>
        </rect>
       </property>
       <layout class="QFormLayout" name="formLayout">
@@ -127,37 +127,6 @@
         <number>20</number>
        </property>
        <item row="0" column="0">
-        <widget class="QLabel" name="label_2">
-         <property name="enabled">
-          <bool>true</bool>
-         </property>
-         <property name="font">
-          <font>
-           <family>Rockwell</family>
-           <pointsize>12</pointsize>
-           <weight>50</weight>
-           <italic>false</italic>
-           <bold>false</bold>
-          </font>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="styleSheet">
-          <string notr="true"/>
-         </property>
-         <property name="text">
-          <string>Id</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::AutoText</enum>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
         <widget class="QLabel" name="label_3">
          <property name="enabled">
           <bool>true</bool>
@@ -188,7 +157,7 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="1">
+       <item row="0" column="1">
         <widget class="QLineEdit" name="name_contact">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -198,7 +167,7 @@
          </property>
         </widget>
        </item>
-       <item row="2" column="0">
+       <item row="1" column="0">
         <widget class="QLabel" name="label_4">
          <property name="enabled">
           <bool>true</bool>
@@ -229,7 +198,7 @@
          </property>
         </widget>
        </item>
-       <item row="2" column="1">
+       <item row="1" column="1">
         <widget class="QLineEdit" name="email_contact">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -239,7 +208,7 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="0">
+       <item row="2" column="0">
         <widget class="QLabel" name="label_5">
          <property name="enabled">
           <bool>true</bool>
@@ -270,21 +239,8 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="1">
+       <item row="2" column="1">
         <widget class="QLineEdit" name="tel_contact">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QLineEdit" name="id_contact">
-         <property name="enabled">
-          <bool>true</bool>
-         </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
@@ -298,8 +254,8 @@
      <widget class="QWidget" name="horizontalLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>180</x>
-        <y>360</y>
+        <x>110</x>
+        <y>310</y>
         <width>241</width>
         <height>19</height>
        </rect>
@@ -326,13 +282,16 @@
      <attribute name="title">
       <string>Lista Contatos</string>
      </attribute>
-     <widget class="QTableWidget" name="tableWidget">
+     <widget class="QTableWidget" name="contactList">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>90</y>
-        <width>511</width>
-        <height>351</height>
+        <x>30</x>
+        <y>80</y>
+        <width>381</width>
+        <height>261</height>
        </rect>
       </property>
       <property name="autoFillBackground">
@@ -370,8 +329,8 @@
      <widget class="QWidget" name="horizontalLayoutWidget_2">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>460</y>
+        <x>10</x>
+        <y>360</y>
         <width>421</width>
         <height>51</height>
        </rect>
@@ -381,7 +340,7 @@
         <number>24</number>
        </property>
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="alter_contact">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(170, 255, 0);</string>
          </property>
@@ -391,7 +350,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="pdf_generator">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(170, 255, 0);</string>
          </property>
@@ -401,7 +360,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="delete_contact">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(170, 255, 0);</string>
          </property>
@@ -415,8 +374,8 @@
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>190</x>
-        <y>10</y>
+        <x>140</x>
+        <y>0</y>
         <width>171</width>
         <height>71</height>
        </rect>
@@ -457,8 +416,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>624</width>
-     <height>21</height>
+     <width>483</width>
+     <height>18</height>
     </rect>
    </property>
   </widget>
