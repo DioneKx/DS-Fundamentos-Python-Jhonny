@@ -21,7 +21,7 @@ for n in range(0, len(wordGroup), +1):
         print("A palavra %s continua a mesma ao inverter" % (temp))
         wordInverse.append(inverse.capitalize())
     else:
-        print("A palavra %s mnuda ao inverter" % (temp))
+        print("A palavra %s muda ao inverter" % (temp))
         wordInverse.append(inverse)
         
 

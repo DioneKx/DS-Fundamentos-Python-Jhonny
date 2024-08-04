@@ -5,4 +5,3 @@ vt = "Valor Total"
 
 print(type(soma)) # type retorna o tipo da var dentro dos () 
 print(vt, "da soma", soma) # Para concatenar, por exemplo, em print, utilize "," após as aspas do texto ou a var (Pode-se usar tambem "+", porém deve converter os numeros para String)
-# Ao utilizar "%<Alguma formatação>", podemos usar alguma outra var para substituir esse trecho por outra coisa ao acrescentar "%" depois das aspas principais... (REVER)
