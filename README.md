@@ -1,2 +1,2 @@
 # DS-Fundamentos-Python-Jhonny
-Repositório usado nas aulas de DS na Etec.
+Repositório usado para armazenar os fundamentos da linguagem Python.
